@@ -8,4 +8,10 @@ export default defineConfig({
   plugins: [react(),
   tailwindcss()
   ],
+  server: {
+    host: true,    // exposes to LAN
+    port: 3000     // custom port
+  }
 })
+
+
